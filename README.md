@@ -11,6 +11,10 @@ borsa. is a React Native-based stock market tracking application. The app lists 
 - **API Communication with Axios**
 - **Custom Splash Screen with Bootsplash**
 
+## 🎬 Demo
+
+![Demo GIF](demo/demo.gif)
+
 ## 📂 Project Structure
 
 ```bash
@@ -75,6 +79,18 @@ npm run ios
 - **React Native Bootsplash** (`react-native-bootsplash`)
 - **React Native Vector Icons** (`react-native-vector-icons`)
 - **Reactotron** (`reactotron-react-native`, `reactotron-redux`)
+
+## 🛠 Environment Variables
+
+To configure the project, create a .env file in the root directory and add the following variables:
+
+- AUTH_TOKEN=AUTH_TOKEN_HERE
+- BASE_URL= BASE_URL_HERE
+- STOCK_LIST_PATH=STOCK_LIST_PATH_HERE
+- NEWS_PATH=NEWS_PATH_HERE
+- SNAPSHOT_PATH=SNAPSHOT_PATH_HERE
+
+Replace **AUTH_TOKEN_HERE**, **BASE_URL_HERE**, **STOCK_LIST_PATH_HERE**, **NEWS_PATH_HERE**, and **SNAPSHOT_PATH_HERE** with the appropriate values.
 
 ## 👨‍💻 Author
 
